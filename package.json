@@ -1,0 +1,21 @@
+{
+  "name": "RobotFinder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Robot Finder backend",
+  "author": "Pablo Clemente",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pclemente/RobotFinder"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "body-parser":"1.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
