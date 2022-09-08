@@ -32,6 +32,7 @@ jobs:
           npm install --save @azure/msal-node
           npm run build --if-present
           npm run test --if-present
+          npm run start
           popd
 
       - name: 'Run Azure Functions Action'
