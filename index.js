@@ -15,7 +15,6 @@ loginRoutes(app);
 userRoutes(app);
 
 
-app.listen(port);
 app.listen(port, function() {
   console.log('Node app is running wubbalubba dub dub! on port', port);
 });
