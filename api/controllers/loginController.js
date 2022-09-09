@@ -15,7 +15,6 @@ exports.login = function(req, res) {
     // res.json({'error':'invalid user and password'});
     context.res = {
       status: 401,
-      body: result,
       body: `{'error':'invalid user and password'}`
     };
     context.done();    
